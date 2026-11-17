@@ -21,5 +21,16 @@ public class StudentManagement {
         double average = (mark1 + mark2 + mark3) / 3;
 
         System.out.println("Average Mark: " + average);
+
+        // Academic performance feature
+        if (average >= 80) {
+            System.out.println("Performance: Excellent");
+        }
+        else if (average >= 60) {
+            System.out.println("Performance: Good");
+        }
+        else {
+            System.out.println("Performance: Needs Improvement");
+        }
     }
 }
