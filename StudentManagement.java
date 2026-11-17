@@ -12,5 +12,14 @@ public class StudentManagement {
         System.out.println("Student Name: " + studentName);
         System.out.println("Student ID: " + studentID);
         System.out.println("Student Mark: " + mark);
+
+        // Calculate average marks
+        double mark1 = 75;
+        double mark2 = 80;
+        double mark3 = 85;
+
+        double average = (mark1 + mark2 + mark3) / 3;
+
+        System.out.println("Average Mark: " + average);
     }
 }
