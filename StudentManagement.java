@@ -5,7 +5,7 @@ public class StudentManagement {
 
         String studentName = "Ali";
         int studentID = 1001;
-        double mark = 75.0;
+        double mark = 60.0;
 
         System.out.println("Student Management System");
         System.out.println("-------------------------");
